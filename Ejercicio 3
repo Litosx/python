@@ -1,0 +1,18 @@
+#Escriu un programa que genere un string compost pels primers 3 caràcters i els últims 3 caràcters d’un string introduït
+frase = input("Introduce una cadena: ")
+
+# Verifica que la cadena tenga al menos 3 caracteres
+if len(frase) < 3:
+    print("La cadena debe tener al menos 3 caracteres.")
+else:
+    # Obtiene los primeros 3 caracteres
+    primeros_tres = frase[:3]
+    
+    # Obtiene los últimos 3 caracteres
+    ultimos_tres = frase[-3:]
+    
+    # Combina los primeros y últimos 3 caracteres
+    resultado = primeros_tres + ultimos_tres
+    
+    # Muestra el resultado
+    print("El resultado es:", resultado)

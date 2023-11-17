@@ -1,0 +1,8 @@
+#scriu un programa que sol·licite el nom, DNI i edat, l’emmagatzeme en 3 variables diferents i mostre per pantalla els valors introduïts.
+nom=input("Dime tu nombre: ")
+dni=input("Dine tu DNI: ")
+edad=int(input("Dime tu edad: "))
+print("\nDatos introducidos")
+print("Tu nombre es:",nom)
+print("Tu DNI es:",dni)
+print("Tu edad es::",edad)

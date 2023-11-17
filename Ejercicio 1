@@ -1,0 +1,10 @@
+#Programa con las siguientes variables. Deberá mostrar todos los valores:
+nom="Michael Jordan"
+edad=50
+media_puntos=28.5
+activo=False
+print("Datos introducidos")
+print("Nombre:",nom)
+print("Edad:",edad)
+print("Media de puntos:",media_puntos)
+print("Sigue en activo:",activo)

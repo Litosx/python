@@ -1,0 +1,14 @@
+#Escriu un programa que sol·licite a l’usuari dos números i una frase. El primer número introduït es correspondrà a la posició d’inici del substring que haurà de mostrar el programa per pantalla. El segon número indicarà la longitud d’aquest substring.
+numero_inicio = int(input("Introduce el primer número (posición de inicio): "))
+longitud_substring = int(input("Introduce el segundo número (longitud del substring): "))
+frase = input("Introduce una frase: ")
+
+# Verifica que la posición de inicio sea válida
+if numero_inicio < 0 or numero_inicio >= len(frase):
+    print("La posición de inicio no es válida.")
+else:
+    # Obtiene el substring basado en la posición de inicio y la longitud
+    substring_resultado = frase[numero_inicio:numero_inicio + longitud_substring]
+    
+    # Muestra el substring
+    print("El substring es:", substring_resultado)

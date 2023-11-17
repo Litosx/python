@@ -1,0 +1,17 @@
+# Escriu un programa que sol·licite a l’usuari una frase. A continuació li sol·licitarà la lletra que vol reemplaçar i per quina lletra haurà de reemplaçar-se. Finalment el programa mostrarà el nombre de vegades que la lletra és present en la frase i el resultat final després de reemplaçar-la.
+#Introduce una frase
+frase = input("Introduce una frase: ")
+#Letra a reemplazar
+letra_a_reemplazar = input("Introduce la letra a reemplazar: ")
+#Letra por la que se va a reemplazar
+letra_reemplazo = input("Introduce la letra de reemplazo: ")
+
+# Cuenta el número de veces que la letra a reemplazar está presente
+numero_ocurrencias = frase.count(letra_a_reemplazar)
+
+# Reemplaza la letra a reemplazar con la letra de reemplazo
+frase_reemplazada = frase.replace(letra_a_reemplazar, letra_reemplazo)
+
+# Muestra los resultados
+print("Número de veces que la letra está presente: ", numero_ocurrencias)
+print("Frase después del reemplazo: ", frase_reemplazada)
